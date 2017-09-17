@@ -151,6 +151,16 @@
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="500dp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:srcCompat="@color/colorPrimaryDark" />
+
         </LinearLayout>
     </ScrollView>
 </android.support.constraint.ConstraintLayout>
